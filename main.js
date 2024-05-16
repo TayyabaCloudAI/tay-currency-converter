@@ -33,5 +33,5 @@ let from_amount = currency[userfrom_currency];
 let to_amount = currency[userto_currency];
 let amount = user_input.amount;
 let base_amount = amount / from_amount;
-let answer = base_amount * to_amount;
-console.log(answer);
+let answer = (base_amount * to_amount);
+console.log(Math.floor(answer));
